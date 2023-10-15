@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Faça seu cadastro conosco</title>
+</head>
+<body>
+    <div class="container">
+        <div class="imagem-form">
+            <img src="img/[cadastro].svg" >
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-cabec">
+                   <div class="titulo">
+                    <h1>Cadastre-se</h1>
+                   </div> 
+                   <div class="login-botao">
+                    <button><a href="#">Entrar</a></button>
+                   </div>
+                </div>
+                <div class="input-grupo">
+                    <div class="input-box">
+                      <label for="primeironome">Primeiro nome</label>  
+                      <input type="text" name="primeironome" id="primeironome" placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="ultimonome">Último nome</label>  
+                        <input type="text" name="ultimonome" id="ultimonome" placeholder="Digite seu sobrenome" required>
+                      </div>
+                      <div class="input-box">
+                        <label for="email">Seu e-mail</label>  
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                      </div>
+                      <div class="input-box">
+                        <label for="number">Celular</label>  
+                        <input type="tel" name="celular" id="celular" placeholder="(xx) xxxx-xxxx" required>
+                      </div>
+                      <div class="input-box">
+                        <label for="password">Senha</label>  
+                        <input type="password" name="senha" id="senha" placeholder="Digite uma senha segura" required>
+                      </div>
+                      <div class="input-box">
+                        <label for="password">Confirme sua senha</label>  
+                        <input type="password" name="confirmarsenha" id="senha" placeholder="Confirme sua senha" required>
+                      </div>
+                </div>
+                <div class="genero-inputs">
+                    <div class="genero-titulo">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="genero-grupo">
+                        <div class="genero-input">
+                            <input type="radio" id="fem" name="genero">
+                            <label for="fem">Feminino</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="masc" name="genero">
+                            <label for="masc">Masculino</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="outros" name="genero">
+                            <label for="outros">Outros</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="nsei" name="genero">
+                            <label for="nsei">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="botao-continuar">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
